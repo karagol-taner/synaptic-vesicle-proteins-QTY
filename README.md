@@ -1,1 +1,1 @@
-# synaptic-vesicle-proteins-QTY
+Comparative structural and evolutionary studies of synaptic vesicle proteins including synaptic vesicle glycoprotein 2 family, synaptophysin, synaptogyrins, and their AlphaFold3 predicted water-soluble QTY variants
