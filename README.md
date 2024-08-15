@@ -1,6 +1,6 @@
 # Comparative structural and evolutionary studies of synaptic vesicle proteins including synaptic vesicle glycoprotein 2 family, synaptophysin, synaptogyrins, and their AlphaFold3 predicted water-soluble QTY variants
 
-##Abstract
+## Abstract
 
 Proteins within synaptic vesicles, including the synaptic vesicle glycoprotein 2 family, synaptophysin, and synaptogyrins, are crucial for neurotransmitter release and overall synaptic function, influencing numerous neurological and physiological processes. Although these proteins are vital and hold promise as therapeutic targets, their study is complicated due to their location within the cell membrane. To overcome these difficulties, we performed structural bioinformatics and evolutionary analyses on these synaptic vesicle proteins and their water-soluble variants, which were designed using the QTY code. This approach involves systematically replacing hydrophobic amino acids L (leucine), V (valine), I (isoleucine), and F (phenylalanine) with hydrophilic amino acids Q (glutamine), T (threonine), and Y (tyrosine).
 
