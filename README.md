@@ -14,7 +14,7 @@ This repository contains data and scripts used to analyze synaptic vesicle prote
 
 ## Usage
 
-- Evalutioanry analysis:
+- Evalutionary analysis (R code):
   Required packages: Generalcorr, PResiduals, RVAideMemoire
 
   Note: Due to the high volume of input data and the nature of partial correlation analysis, the runtime of the code may be lengthy. For faster results, we recommend using a CPU cluster.
