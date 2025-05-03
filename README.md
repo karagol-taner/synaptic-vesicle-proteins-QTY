@@ -2,17 +2,29 @@
 
 This repository contains data and scripts used to analyze synaptic vesicle proteins and their QTY variants, combining evolutionary conservation (ConSurf), structural predictions (AlphaFold), functional state modeling (DeepTHMM), genetic statistical analysis (R), and molecular dynamics.
 
+## Contact
+#### For any inquiries related to the paper and data, please contact: taner.karagol@gmail.com
+
 ## Contents
 
-Consurf/ – ConSurf conservation scores
+- [Consurf/](./Consurf) – ConSurf conservation scores  
+- [Structures/](./Structures) – AlphaFold protein structures  
+- [Genetic Analysis/](./Genetic%20Analysis) – R scripts for analysis  
+- [DeepTMHMM/](./DeepTMHMM) – Predicted functional states from DeepTHMM
 
-Structures/ – AlphaFold protein structures
+## Usage
 
-Genetic Analysis/ – R scripts for analysis
+- Open AlphaFold structures (PDB) with PyMOL or Chimera:  
+  ```bash
+  pymol Structures/protein_model.pdb
+  ```
 
-DeepTMHMM/ – Predicted functional states from DeepTHMM
+- Process DeepTMHMM output:  
 
-#### For any inquiries related to the paper and data, please contact: taner.karagol@gmail.com
+- Run R analysis:  
+  ```R
+  source("Genetic Analysis/run_analysis.R")
+  ```
 
 ## Abstract
 
