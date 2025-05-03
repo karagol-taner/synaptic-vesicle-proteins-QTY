@@ -16,7 +16,9 @@ This repository contains data and scripts used to analyze synaptic vesicle prote
 
 - Evalutioanry analysis:
   Required packages: Generalcorr, PResiduals, RVAideMemoire
-  Note: Due to high input number and the nature of partial corelation analysis, the runtime of the code can take a long time. We recommend using CPU cluster for faster results.
+  Due to the high volume of input data and the nature of partial correlation analysis, the runtime of the code may be lengthy. For faster results, we recommend using a CPU cluster.
+
+To run the analysis, source the following R scripts:
   ```R
   source("synaptic-vesicle-proteins-QTY/Consurf/R calculations/CONSURAlaninecause.r", chdir = TRUE)
   source("synaptic-vesicle-proteins-QTY/Consurf/R calculations/CONSURVTcause.r", chdir = TRUE)
@@ -26,8 +28,6 @@ This repository contains data and scripts used to analyze synaptic vesicle prote
 - AlphaFold structures (PDB) can be visualized with PyMOL or Chimera  
 
 - DeepTMHMM output can be visible from DeepTMHMM folder or the outputs are also inmcluded in [Synaptic vesicle proteins.pdf](./synaptic-vesicle-proteins-QTY/Structures/Synaptic vesicle proteins.pdf) file.
-  
-
 
 
 
