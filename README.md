@@ -11,6 +11,8 @@ This repository contains data and scripts used to analyze synaptic vesicle prote
 - [Structures/](./Structures) – AlphaFold protein structures  
 - [Genetic Analysis/](./Genetic%20Analysis) – R scripts for analysis  
 - [DeepTMHMM/](./DeepTMHMM) – Predicted functional states from DeepTHMM
+- Supplementary Information.pdf
+- Tables
 
 ## Usage
 
