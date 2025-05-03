@@ -14,17 +14,22 @@ This repository contains data and scripts used to analyze synaptic vesicle prote
 
 ## Usage
 
-- Open AlphaFold structures (PDB) with PyMOL or Chimera:  
-  ```bash
-  pymol Structures/protein_model.pdb
-  ```
-
-- Process DeepTMHMM output:  
-
-- Run R analysis:  
+- Evalutioanry analysis:
+  Required packages: Generalcorr, PResiduals, RVAideMemoire
+  Note: Due to high input number and the nature of partial corelation analysis, the runtime of the code can take a long time. We recommend using CPU cluster for faster results.
   ```R
-  source("Genetic Analysis/run_analysis.R")
+  source("synaptic-vesicle-proteins-QTY/Consurf/R calculations/CONSURAlaninecause.r", chdir = TRUE)
+  source("synaptic-vesicle-proteins-QTY/Consurf/R calculations/CONSURVTcause.r", chdir = TRUE)
+  source("synaptic-vesicle-proteins-QTY/Consurf/R calculations/ConsurfSPEARMAN.r", chdir = TRUE)
   ```
+  
+- AlphaFold structures (PDB) can be visualized with PyMOL or Chimera  
+
+- DeepTMHMM output can be visible from DeepTMHMM folder or the outputs are also inmcluded in [Synaptic vesicle proteins.pdf](./synaptic-vesicle-proteins-QTY/Structures/Synaptic vesicle proteins.pdf) file.
+  
+
+
+
 
 ## Abstract
 
