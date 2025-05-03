@@ -27,7 +27,7 @@ To run the analysis, source the following R scripts:
   
 - AlphaFold structures (PDB) can be visualized with PyMOL or Chimera  
 
-- DeepTMHMM output can be visible from DeepTMHMM folder or the outputs are also inmcluded in [Synaptic vesicle proteins.pdf](./Structures/Synaptic_vesicle_proteins.pdf) file.
+- The output from DeepTMHMM can be found in the DeepTMHMM folder. Additionally, the results are included in the [Synaptic vesicle proteins.pdf](./Structures/Synaptic_vesicle_proteins.pdf) file.
 
 
 
