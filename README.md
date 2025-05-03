@@ -12,7 +12,7 @@ Genetic Analysis/ – R scripts for analysis
 
 DeepTMHMM/ – Predicted functional states from DeepTHMM
 
-### For any inquiries related to the paper and data, please contact: taner.karagol@gmail.com
+#### For any inquiries related to the paper and data, please contact: taner.karagol@gmail.com
 
 ## Abstract
 
