@@ -11,6 +11,7 @@ This repository contains data and scripts used to analyze synaptic vesicle prote
 - [Structures/](./Structures) – AlphaFold protein structures  
 - [Genetic Analysis/](./Genetic%20Analysis) – R scripts for analysis  
 - [DeepTMHMM/](./DeepTMHMM) – Predicted functional states from DeepTHMM
+- [Molecular Dynamics/](./Molecular%20Dynamics) – Molecular Dynamics simulations input and output files
 - Supplementary Information.pdf
 - Tables
 
@@ -32,6 +33,7 @@ To run the analysis, source the following R scripts:
 
 - The output from DeepTMHMM can be found in the DeepTMHMM folder. Additionally, the results are included in the [Synaptic vesicle proteins.pdf](./Structures/Synaptic_vesicle_proteins.pdf) file.
 
+- Molecular Dynamics: Output graphs are included in the results folder. To rerun the analysis from the beginning, run GROMACS with the input files and the updated README and production.mdp files provided in the results folder.
 
 
 ## Abstract
