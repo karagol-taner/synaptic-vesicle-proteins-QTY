@@ -33,7 +33,7 @@ To run the analysis, source the following R scripts:
 
 - The output from DeepTMHMM can be found in the DeepTMHMM folder. Additionally, the results are included in the [Synaptic vesicle proteins.pdf](./Structures/Synaptic_vesicle_proteins.pdf) file.
 
-- Molecular Dynamics: Output graphs are included in the results folder. To rerun the analysis from the beginning, run GROMACS with the input files and the updated README and production.mdp files provided in the results folder.
+- Molecular Dynamics: Output graphs are included in the results folder. To rerun the analysis from the beginning, run GROMACS with the input files and the updated README and production.mdp files provided in the results folder. The comparative dynamics output can be recreated using the ChimeraX session files available in the [Comparative_results_ChimeraX folder](.Molecular%20Dynamics/Comparative_results_ChimeraX).
 
 
 ## Abstract
