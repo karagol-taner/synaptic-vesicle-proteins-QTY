@@ -1,0 +1,31 @@
+!pip install colab-xterm
+%load_ext colabxterm
+%xterm
+
+# In terminal
+
+gmx trjcat -f step5_1.xtc step5_2.xtc step5_3.xtc step5_4.xtc step5_5.xtc step5_6.xtc step5_7.xtc step5_8.xtc step5_9.xtc step5_10.xtc step5_11.xtc step5_12.xtc step5_13.xtc step5_14.xtc step5_15.xtc step5_16.xtc step5_17.xtc step5_18.xtc step5_19.xtc step5_20.xtc -settime -o fixed.xtc
+
+sudo apt-get install grace
+
+gmx gyrate -f fixed.xtc -s step5_20.tpr -o gyrate_fixedstep5.xvg
+
+grace -nxy gyrate_fixedstep5.xvg -hdevice PNG -hardcopy -printfile gyrate_fixedstep5.png
+
+gmx sasa -f fixed.xtc -s step5_20.tpr -o sasa_fixedstep5.xvg
+gmx sasa -f step5_20.xtc -s step5_20.tpr -o sasa_step520.xvg
+
+grace -nxy sasa_fixedstep5.xvg -hdevice PNG -hardcopy -printfile sasa_fixedstep5.png
+grace -nxy sasa_step520.xvg -hdevice PNG -hardcopy -printfile sasa_step520.png
+
+gmx rmsf -f fixed.xtc -s step5_20.tpr -o rmsf_fixedstep5.xvg -oc correl_fixedstep5.xvg -oq bfac1_fixedstep5.pdb -ox xaver1_fixedstep5.pdb -dir rmsf_fixedstep5.log
+
+grace -nxy rmsf_fixedstep5.xvg -hdevice PNG -hardcopy -printfile rmsf_fixedstep5.png
+grace -nxy correl_fixedstep5.xvg -hdevice PNG -hardcopy -printfile correl_fixedstep5.png
+
+gmx traj -f fixed.xtc -s step5_20.tpr -ox coordtraj_fixedstep5.xvg -ov velotraj_fixedstep5.xvg -of forcetraj_fixedstep5.xvg -cv velotraj_fixedstep5.pdb -cf forcetraj_fixedstep5.pdb 
+
+grace -nxy coordtraj_fixedstep5.xvg -hdevice PNG -hardcopy -printfile coordtraj_fixedstep5.png
+grace -nxy forcetraj_fixedstep5.xvg -hdevice PNG -hardcopy -printfile forcetraj_fixedstep5.png
+grace -nxy velotraj_fixedstep5.xvg -hdevice PNG -hardcopy -printfile velotraj_fixedstep5.png
+
