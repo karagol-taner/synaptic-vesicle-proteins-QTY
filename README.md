@@ -29,7 +29,7 @@ To run the analysis, source the following R scripts:
   source("synaptic-vesicle-proteins-QTY/Consurf/R calculations/ConsurfSPEARMAN.r", chdir = TRUE)
   ```
   
-- AlphaFold structures (PDB) can be visualized with PyMOL or Chimera  
+- [AlphaFold structures (PDB) without large loops](./Structures/AlphaFold3/PDB_no_loop) can be visualized with PyMOL or Chimera  
 
 - The output from DeepTMHMM can be found in the DeepTMHMM folder. Additionally, the results are included in the [Synaptic vesicle proteins.pdf](./Structures/Synaptic_vesicle_proteins.pdf) file.
 
