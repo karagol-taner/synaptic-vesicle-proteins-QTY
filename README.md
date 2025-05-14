@@ -1,4 +1,4 @@
-# Integrative structural bioinformatics and molecular dynamics analysis of water-soluble synaptic vesicle protein QTY-variants reveals synaptic vesicle constraints and evolutionary coupling of T<=>V
+# Integrative structural bioinformatics and molecular dynamics analyses of synaptic vesicle proteins and their water-soluble QTY-variants reveal membrane constraints and evolutionary coupling of T<=>V
 
 This repository contains data and scripts used to analyze synaptic vesicle proteins and their QTY variants, combining evolutionary conservation (ConSurf), structural predictions (AlphaFold), functional state modeling (DeepTHMM), genetic statistical analysis (R), and molecular dynamics.
 
